@@ -10,13 +10,13 @@
                         </div>
                         <h5 class="mt-20 mb-10 fw-600 text-grey-4 wow fadeIn animated">Contact</h5>
                         <p class="wow fadeIn animated">
-                            <strong>Address: </strong>Tetouan Shore
+                            <strong>Address: </strong>Ilhom Jabborov
                         </p>
                         <p class="wow fadeIn animated">
-                            <strong>Phone: </strong>+212 682860421
+                            <strong>Phone: </strong> Aytmayman
                         </p>
                         <p class="wow fadeIn animated">
-                            <strong>Email: </strong>yusufisawi@gmail.com
+                            <strong>Email: </strong>jabborovilhom315@gmail.com
                         </p>
                     </div>
                 </div>
@@ -67,4 +67,7 @@
 <!-- Template JS -->
 <script src="{{ asset('assets/js/main.js?v=3.3') }}"></script>
 <script src="{{ asset('assets/js/shop.js?v=3.3') }}"></script>
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 @stack('scripts')

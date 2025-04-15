@@ -21,7 +21,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [Home::class, 'render'])->name('home');
+Route::get('/home', [Home::class, 'render'])->name('home');
+Route::get('/', [Home::class, 'base_home'])->name('base');
+
 
 Route::get('/product/{product_id}', [ProductDetails::class, 'render'])->name('product.details');
 

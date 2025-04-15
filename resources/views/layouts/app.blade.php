@@ -20,6 +20,7 @@
 <body class="font-sans antialiased">
     @include('layouts.header')
     <main class="px-10">
+       
         {{ $slot }}
     </main>
     @include('layouts.footer')

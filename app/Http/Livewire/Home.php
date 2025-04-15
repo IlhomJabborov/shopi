@@ -73,4 +73,22 @@ class Home extends Component
             'categories' => $categories
         ]);
     }
+
+
+
+    public function getAllProducts() {
+        // Barcha mahsulotlarni olish uchun sizning logikangiz
+        return Product::all(); // yoki kerakli so'rov
+    }
+
+    public function base_home(Request $request)
+    {
+        $products = $this->getAllProducts(); // Barcha mahsulotlarni olish
+        $categories = Category::all(); // Kategoriyalarni olish
+
+        return view('livewire.toppage', [
+            'products' => $products,
+            'categories' => $categories
+        ]);
+    }
 }

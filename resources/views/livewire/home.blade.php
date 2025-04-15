@@ -1,9 +1,11 @@
 <x-app-layout>
     <section class="mt-50 mb-50">
         <div class="container">
+            
             <div class="row">
                 @include('livewire.sidebar')
                 <div class="col-lg-9">
+                    
                     <div class="shop-product-fillter">
                         <div class="totall-product">
                             <p> We found <strong class="text-brand">{{ $products->total() }}</strong> items for you!</p>
