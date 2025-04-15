@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Demo:
 <a href="https://www.isawi.tech/projects/shopi">Click here</a>
 # Setup
@@ -24,3 +25,7 @@ Demo:
 ![Screen Shot 2023-05-28 at 18 18 09](https://github.com/YusufLisawi/Shopi/assets/90868691/4bf526a8-9207-4efc-8bce-ec7f203e547c)
 ![Screen Shot 2023-05-28 at 18 18 24](https://github.com/YusufLisawi/Shopi/assets/90868691/82031c11-08c8-4718-8d11-6a927d336a05)
 ![Screen Shot 2023-05-28 at 18 18 36](https://github.com/YusufLisawi/Shopi/assets/90868691/2c175a8d-5eb0-4fa7-a8a2-54f1919ffb25)
+=======
+# shopi
+shopi dokon sayti
+>>>>>>> 2160027afab7873c354b6fdec3576ecff89bad07
